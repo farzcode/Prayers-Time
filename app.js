@@ -6,4 +6,4 @@ function index() {
     app.appendChild(h3);
 }
 
-index(); 
+index();
