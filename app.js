@@ -28,7 +28,8 @@ function success(position){
 }
 
 function error(){
-    alert('posisi tidak dapat diakses');
+    //default menggunakan latidude dan longitude Jakarta
+    prayerTimes('-6.200000', '106.816666');
 }
 
 function userLocation(){
